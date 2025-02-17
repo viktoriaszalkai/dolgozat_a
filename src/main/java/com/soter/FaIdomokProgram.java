@@ -9,12 +9,8 @@ import java.util.Objects;
 
 public class FaIdomokProgram {
     private  ArrayList<FaIdom>faIdomok;
-    public static void main(String[] args) {
 
-    }
-
-    public FaIdomokProgram(ArrayList<FaIdom> faIdomok) {
-        this.faIdomok = faIdomok;
+    public FaIdomokProgram() {
     }
 
     public void ujIdom(FaIdom faIdom) {
@@ -73,4 +69,6 @@ public class FaIdomokProgram {
         }
         return min;
     }
+
+
 }
