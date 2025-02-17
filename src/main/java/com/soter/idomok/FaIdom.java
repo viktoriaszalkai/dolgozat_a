@@ -1,7 +1,5 @@
 package com.soter.idomok;
 
-import com.soter.FaIdomokProgram;
-
 public abstract class FaIdom {
 
     public static double getFajsuly() {
